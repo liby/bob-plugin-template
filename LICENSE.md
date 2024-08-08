@@ -1,0 +1,1 @@
+This work is licensed under [The MIT License](https://opensource.org/license/mit).

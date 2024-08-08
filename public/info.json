@@ -1,0 +1,35 @@
+{
+  "identifier": "com.example.app",
+  "version": "0.0.1",
+  "category": "translate",
+  "name": "Example",
+  "summary": "Example plugin for Bob.",
+  "icon": "001",
+  "author": "Bob",
+  "homepage": "https://github.com/ripperhe/Bob",
+  "appcast": "https://raw.githubusercontent.com/liby/bob-plugin-template/main/appcast.json",
+  "minBobVersion": "1.8.0",
+  "options": [
+    {
+      "identifier": "token",
+      "type": "text",
+      "title": "秘钥"
+    },
+    {
+      "identifier": "option",
+      "type": "menu",
+      "title": "测试菜单",
+      "defaultValue": "1",
+      "menuValues": [
+        {
+          "title": "菜单1",
+          "value": "1"
+        },
+        {
+          "title": "菜单2",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}
