@@ -115,5 +115,3 @@ export const supportLanguageList = [
   ["yo", "yo"],
   ["zu", "zu"],
 ] as const;
-
-export type Language = typeof supportLanguageList[number][0];

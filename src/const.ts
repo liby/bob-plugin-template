@@ -41,5 +41,3 @@ export const HTTP_ERROR_CODES = {
   510: "Not Extended",
   511: "Network Authentication Required"
 } as const;
-
-export type HttpErrorCode = keyof typeof HTTP_ERROR_CODES;

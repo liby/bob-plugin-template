@@ -1,5 +1,6 @@
+import type { TextTranslate } from "@bob-translate/types";
 import { supportLanguageList } from "./lang";
-import { TextTranslate } from "./types/text-translate.type";
+
 /**
  * @description
  *  Bob 主程序调用插件 translate 函数的时候，会设定一个超时时间，防止插件出现不回调的情况
