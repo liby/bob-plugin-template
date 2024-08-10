@@ -1,4 +1,3 @@
-
 export const HTTP_ERROR_CODES = {
   400: "Bad Request",
   401: "Unauthorized",

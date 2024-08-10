@@ -12,7 +12,9 @@
   ],
   "homepage": "https://github.com/liby/bob-plugin-template",
   "scripts": {
-    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+    "prebuild": "./scripts/check_version.sh",
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "bump": "pnpm run build && node ./scripts/release.cjs"
   },
   "devDependencies": {
     "@bob-translate/types": "1.0.2",

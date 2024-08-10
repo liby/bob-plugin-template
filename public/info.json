@@ -1,12 +1,12 @@
 {
   "identifier": "com.example.app",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "category": "translate",
   "name": "Example",
   "summary": "Example plugin for Bob.",
   "icon": "001",
   "author": "Bob",
-  "homepage": "https://github.com/ripperhe/Bob",
+  "homepage": "https://github.com/liby/bob-plugin-template",
   "appcast": "https://raw.githubusercontent.com/liby/bob-plugin-template/main/appcast.json",
   "minBobVersion": "1.8.0",
   "options": [
